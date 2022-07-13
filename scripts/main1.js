@@ -5,7 +5,7 @@ var participant_id;
 
 // video and emotion sets
 var video_num = 0;
-var emotion_set_num = 2;
+var emotion_set_num = 1;
 var emotionID = "emotion_question_set_" + emotion_set_num; // this is to be used to show which emotion question set 
 var emotionID1 = "emotion_set" + emotion_set_num;
 
@@ -256,22 +256,22 @@ $("#total-num").html(numTrials);
 
 var experimentInputParameters = {
     
-  videos: [[
-    "https://drive.google.com/uc?export=download&id=1iXAL1BlGDH9v7qs7XveUeIO3oiQncnhk",
-    "https://drive.google.com/uc?export=download&id=1wvVcSUKp8CORZiID5DBWHJblP7RfExJV",
-    "https://drive.google.com/uc?export=download&id=1y3-SZ01mgL7iFNbAi2QD7BP9l5E3RDPt",
-    "https://drive.google.com/uc?export=download&id=1tIogghzjMuzjZwUvL6bhXOgJsPpIq6wU",
-    "https://drive.google.com/uc?export=download&id=1td6QcWsUX6hkW6rVIBt0811ZV3pQlMUM",
-    "https://drive.google.com/uc?export=download&id=1QwMu8WeHGpEjELolAFdD8hR4D9M79iGk",
-    "https://drive.google.com/uc?export=download&id=13FgzmbH5-cRvCwoFJKOZYSuk_S77oarr",
-    "https://drive.google.com/uc?export=download&id=1MMqliQWCfBJS9sXQZSObkE4vnM9CFO9_",
-    "https://drive.google.com/uc?export=download&id=1Tb1d6QdGdZ35UKLhj0rxo_OWs_Ngfdl0",
-    "https://drive.google.com/uc?export=download&id=14LrbiE_zS2GVrYDTkYQUYDGL7-15zgGL",
-    "https://drive.google.com/uc?export=download&id=1LzE1nbv0-o_lp1jEE4NhkE6v--QkKCPy",
-    "https://drive.google.com/uc?export=download&id=12H61R_O5egwuqHuqPIrbXNMPuVMaa2dp"
-      ],[
-      
-      ]]
+    videos: [[
+      "https://drive.google.com/uc?export=download&id=1bJldpTWfesSPi5PIILfZRq6-x9ckwwR1",
+      "https://drive.google.com/uc?export=download&id=1CUqf0qgnl0wa1B-U27jfNH9iLrrQ4qP0",
+      "https://drive.google.com/uc?export=download&id=1d5oHzmF_9e8t2htWjUdmHX-B9XfUQ2Bk",
+      "https://drive.google.com/uc?export=download&id=17N2b4A-yD0T0FPO1mu94xbbruKNo3z1h",
+      "https://drive.google.com/uc?export=download&id=1IqemyaZ9mLqxyf5DASS6w9mzB9mnTMxN",
+      "https://drive.google.com/uc?export=download&id=1kGE8lAdRESiDjseE3hWWLXyhkRudgw6F",
+      "https://drive.google.com/uc?export=download&id=1fjsbBnJpkIgkdiZ4vEBrBqkDJtVBoc4P",
+      "https://drive.google.com/uc?export=download&id=1byW6qBLJRe-UVqaEjPIVYOjSx1NrHDrM",
+      "https://drive.google.com/uc?export=download&id=102KRRT8I69R8GiVAKzwwGbs-f9aaYvM-",
+      "https://drive.google.com/uc?export=download&id=1w9xzobo5mIzMM8XQl9JWDI26mfAVVn7l",
+      "https://drive.google.com/uc?export=download&id=1myYtSmemcZsYuH_KqWnB6TDcd_56OlQj",
+      "https://drive.google.com/uc?export=download&id=1_CRErUIzFIq2jB2iytMYPV8NtDd2IhRs"
+        ],[
+        
+        ]]
 
 }
 
